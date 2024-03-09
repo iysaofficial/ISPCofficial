@@ -239,7 +239,8 @@ body p {
     padding: 75px 25px 75px 25px  ;
     /* height: 100vh; */
     background: var(--warna-sekunder);
-    background-image: url('./assets/icon/wave-bawah.svg');
+    /* background-image: url(../assets/icon/wave-bawah.svg); */
+    background-image: url(../../../public/assets/icon/wave-bawah.svg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -337,7 +338,8 @@ body p {
 .contact-section {
     padding: 75px 25px 75px 25px  ;
     background: var(--warna-sekunder);
-    background-image: url('./assets/icon/wave-bawah.svg');
+    /* background-image: url('./assets/icon/wave-bawah.svg'); */
+    background-image: url(../../../public/assets/icon/wave-bawah.svg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -546,7 +548,9 @@ body p {
     background-repeat: no-repeat;
     position: relative;
     padding: 75px 25px 25px 25px;
-    background-image: url('./assets/icon/wave-atas.svg');
+    /* background-image: url('./assets/icon/wave-atas.svg'); */
+    background-image: url(../../../public/assets/icon/wave-atas.svg);
+
   }
 
   .footer-section a{
