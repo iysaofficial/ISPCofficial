@@ -6,6 +6,8 @@ import About from "../components/about";
 import Categories from "../components/categories";
 import BackToTop from "../components/backtotop";
 
+import Timevenue from "../components/timevenue";
+
 // Content
 // import MainHero from "../components/mainhero";
 // import Category from "../components/category";
@@ -20,6 +22,7 @@ function Home() {
         <MainHero />
         <Organized />
         <About />
+        <Timevenue />
         <Categories />
         <BackToTop />
         <Footer />
