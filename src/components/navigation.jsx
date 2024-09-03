@@ -43,10 +43,10 @@ const navigation = () => {
                                     <a className="nav-item nav-link" href="/">Home</a>
                                     <a className="nav-item nav-link" href="/#about">About</a>
                                     {/* <a className="nav-item nav-link" href="#">Liputan Media</a> */}
-                                    {/* <NavDropdown title="Gallery" id="nav-dropdown">
-                                        <NavDropdown.Item eventKey="3.1" href='https://drive.google.com/drive/folders/12NlMzG5aGikdjkfiZWr8DkTf3kP3ts6y?usp=drive_link' target='_blank'>2023</NavDropdown.Item>
-                                    </NavDropdown> */}
                                     <a className="nav-item nav-link" href="/faq">FAQ </a>
+                                    <NavDropdown title="Certificate" id="nav-dropdown">
+                                        <NavDropdown.Item eventKey="3.1" href='https://drive.google.com/drive/folders/1OdGfiXdOXx2UTBY4GflTv9rcH8CO6F0q?usp=sharing' target='_blank'>Certificate Supervisor 2024</NavDropdown.Item>
+                                    </NavDropdown>
                                     <a className="nav-item nav-link" href="/contact">Contact </a>
                                 </div>
                                 <div className='ms-lg-3'>

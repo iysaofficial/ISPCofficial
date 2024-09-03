@@ -38,9 +38,9 @@ const footer = () => {
 
                                             <ul className="footer-quick-links list-unstyled">
                                                 <li><a href="https://iysa.or.id" target="_blank">Our Main Website</a></li>
-                                                <li>
+                                                {/* <li>
                                                     <a href="https://registration-ispc.vercel.app/" target="_blank">Registration Here</a>
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -53,7 +53,7 @@ const footer = () => {
                                                 <li>
                                                     <a href="https://goo.gl/maps/gEzFyE9gtXEyRfA26">
                                                         <i className="fa fa-map-marker me-1"></i>
-                                                        Jl. Kemang No.63 RT 03 RW 06
+                                                        Jl. Kemang RT 03 RW 06
                                                     </a>
                                                 </li>
                                                 <li>

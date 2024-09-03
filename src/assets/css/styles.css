@@ -228,8 +228,9 @@ body p {
 
 }
 .organized-section .image-content img:hover{
-  transform: scale(1.4);
-  background: none;
+  transform: scale(1.2);
+  box-shadow: solid 1rem var(--warna-primary);
+  /* background: none; */
 }
   
 /* Organized End *//* Organized End */
@@ -240,7 +241,7 @@ body p {
     /* height: 100vh; */
     background: var(--warna-sekunder);
     /* background-image: url(../assets/icon/wave-bawah.svg); */
-    background-image: url(../../../public/assets/icon/wave-bawah.svg);
+    background-image: url(../../../assets/icon/wave-bawah.svg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -339,7 +340,7 @@ body p {
     padding: 75px 25px 75px 25px  ;
     background: var(--warna-sekunder);
     /* background-image: url('./assets/icon/wave-bawah.svg'); */
-    background-image: url(../../../public/assets/icon/wave-bawah.svg);
+    background-image: url(../../../assets/icon/wave-bawah.svg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -549,7 +550,7 @@ body p {
     position: relative;
     padding: 75px 25px 25px 25px;
     /* background-image: url('./assets/icon/wave-atas.svg'); */
-    background-image: url(../../../public/assets/icon/wave-atas.svg);
+    background-image: url(../../../assets/icon/wave-atas.svg);
 
   }
 
