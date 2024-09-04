@@ -22,7 +22,7 @@ function Home() {
         <MainHero />
         <Organized />
         <About />
-        <Timevenue />
+        {/* <Timevenue /> */}
         <Categories />
         <BackToTop />
         <Footer />
