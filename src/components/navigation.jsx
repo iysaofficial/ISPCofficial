@@ -50,6 +50,7 @@ const navigation = () => {
                                     <NavDropdown title="Gallery" id="nav-dropdown">
                                         <NavDropdown.Item eventKey="3.1" href='https://drive.google.com/drive/folders/14Niucp6WAqmeQqTFTdt5A3NW98jsafKz?usp=sharing' target='_blank'>2024</NavDropdown.Item>
                                     </NavDropdown>
+                                    <a className="nav-item nav-link" href="https://drive.google.com/drive/folders/18nFoDTRC3LgfG5Pgo5heJEgXkzoWiSUw?usp=drive_link">Press Release </a>
                                     <a className="nav-item nav-link" href="/contact">Contact </a>
                                 </div>
                                 <div className='ms-lg-3'>
