@@ -7,6 +7,7 @@ import Categories from "../components/categories";
 import BackToTop from "../components/backtotop";
 
 import Timevenue from "../components/timevenue";
+import Aftermovie from "../components/aftermovie";
 
 // Content
 // import MainHero from "../components/mainhero";
@@ -24,6 +25,7 @@ function Home() {
         <About />
         {/* <Timevenue /> */}
         <Categories />
+        <Aftermovie />
         <BackToTop />
         <Footer />
     </>

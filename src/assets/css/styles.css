@@ -61,6 +61,26 @@ body p {
     margin-bottom: 0 !important;
 }
 
+
+.page-header {
+  background-color: var(--warna-primary) !important;
+  background-size: auto;
+  height: 25vh;
+  width: 100%;
+  /* border-end-end-radius: 30%; */
+  /* border-end-start-radius: 30%; */
+  margin: 80px 0px 0px 0;
+}
+
+.page-header h1{
+  padding-top: 25px;
+  color: var(--warna-tulisan);
+}
+.page-header a{
+  color: var(--warna-tulisan);
+  text-decoration: none;
+}
+
 /* body hr {
     border-color: var(--warna-primary) !important;
 } */
@@ -202,6 +222,24 @@ body p {
 
 /* Categories End *//* Categories End */
 
+/* After Movie Start */ /* After Movie Start */
+.aftermovie-section {
+  padding: 100px 25px 100px 25px  ;
+  background-color: var(--warna-primary);
+  background-position: center;
+  background-size: cover;
+}
+
+.aftermovie-section .title-content h2{
+  color: var(--warna-tulisan);
+}
+
+.aftermovie-section .video-content iframe{
+  border: 1rem solid var(--warna-tulisan2);
+  border-radius: 10px;
+}
+/* After Movie End */ /* After Movie End */
+
 /* Organized Start *//* Organized Start */
 .organized-section {
     padding: 20px 15px 20px 5px;
@@ -339,7 +377,6 @@ body p {
 .contact-section {
     padding: 75px 25px 75px 25px  ;
     background: var(--warna-sekunder);
-    /* background-image: url('./assets/icon/wave-bawah.svg'); */
     background-image: url(../../../assets/icon/wave-bawah.svg);
     background-position: center center;
     background-size: cover;
@@ -653,3 +690,27 @@ body p {
   }
     
 /* Footer End */
+
+/* LOW START */ /* LOW START */
+.low-section{
+  padding: 75px 25px 75px 25px  !important;
+  background: var(--warna-sekunder);
+  background-image: url(../../../assets/icon/wave-bawah.svg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  align-content: center;
+}
+
+.low-section .content-title h1{
+  font-weight: bold;
+}
+
+.low-section .content-button {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+/* LOW END */ /* LOW END */
