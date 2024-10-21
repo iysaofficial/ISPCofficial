@@ -67,6 +67,9 @@ const navigation = () => {
                   2024
                 </NavDropdown.Item>
               </NavDropdown>
+              <a className="nav-item nav-link" href="https://drive.google.com/drive/folders/1wKdfpoiYnZFSHBtfCtPtdosKWrD0xVaD?usp=drive_link">
+                Curation{" "}
+              </a>
               <a
                 className="nav-item nav-link"
                 href="https://drive.google.com/drive/folders/18nFoDTRC3LgfG5Pgo5heJEgXkzoWiSUw?usp=drive_link"
