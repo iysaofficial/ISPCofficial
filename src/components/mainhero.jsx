@@ -16,7 +16,8 @@ function MainHero() {
                 </div>
                 <div className="second-content text-center">
                     <a className="btn btn-action" >Coming Soon 2025</a>
-                    {/* <a className="btn btn-action">Guide Book</a> */}
+                    {/* <a className="btn btn-action" href="/homeregist">Registration Here</a> */}
+                    <a className="btn btn-action" href="https://drive.google.com/file/d/1STnLOXA-9nVlKTTcp9WZ-mY3bjoWDbVA/view?usp=sharing" target="_blank">Guide Book</a>
                 </div>
             </div>
         </section>

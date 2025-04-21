@@ -91,9 +91,9 @@ const footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="tel:+6281770914129">
+                    <a href="https://wa.me/+6288213248890">
                       <i className="fa fa-phone me-1"></i>
-                      +6281770914129
+                      +6288213248890
                     </a>
                   </li>
                 </ul>
@@ -143,8 +143,6 @@ const footer = () => {
               </div>
             </div>
           </div>
-
-          {/* <hr style={{ border: '3px solid' }} /> */}
           <div className="copyright-area">
             <div className="row align-items-center">
               <p className="text-center">

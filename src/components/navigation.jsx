@@ -84,15 +84,15 @@ const navigation = () => {
                 FAQ{" "}
               </a>
             </div>
-            <div className="ms-lg-3">
+            {/* <div className="ms-lg-3">
               <a
-                href="https://drive.google.com/file/d/1STnLOXA-9nVlKTTcp9WZ-mY3bjoWDbVA/view?usp=sharing"
+                href=""
                 target="_blank"
                 className="btn btn-primary btn-action"
               >
                 Guide Book
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
