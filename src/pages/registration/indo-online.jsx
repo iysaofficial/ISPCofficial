@@ -412,6 +412,7 @@ function IndonesiaOnline() {
                       Sekolah Menengah Atas
                     </option>
                     <option value="Universitas">Universitas</option>
+                    <option value="Public (Teachers, Lecture, Researchers)">Public (Teachers, Lecture, Researchers)</option>
                   </select>
                 </div>
                 <div className="input-box">
@@ -539,26 +540,12 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Pilih Kategori--</option>
-                      <option value="Agriculture & Aquaculture">Agriculture & Aquaculture</option>
-                      <option value="Social Science">Social Science</option>
-                      <option value="Energy">Energy</option>
-                      <option value="Life Science">
-                        Life Science
-                      </option>
-                      <option value="Biotechnology">
-                        Biotechnology
-                      </option>
-                      <option value="Physic and Engineering">Physic and Engineering</option>
-                      <option value="Chemistry">
-                        Chemistry
-                      </option>
-                      <option value="Environment">
-                        Environment
-                      </option>
-                      <option value="Food Science">Food Science</option>
-                      <option value="Electronics and IoT">
-                        Electronics and IoT
-                      </option>
+                    <option value="Social Science">Social Science</option>
+                    <option value="Innovative Science">Innovative Science</option>
+                    <option value="Environmental Science">Environmental Science</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Education for Public (Teachers, Lecture, Researchers)">Education for Public (Teachers, Lecture, Researchers)</option>
+                    <option value="Classroom Action Research for Public (Teachers, Lecture, Researchers)">Classroom Action Research for Public (Teachers, Lecture, Researchers)</option>
                   </select>
                 </div>
 

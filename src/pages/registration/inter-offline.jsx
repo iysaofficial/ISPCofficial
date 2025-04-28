@@ -18,7 +18,6 @@ export default function InternationalOffline() {
   const [canClick, setCanClick] = useState(false);
   const navigate = useNavigate();
 
-
   const handleInputNameChange = (e) => {
     const { value } = e.target;
     if (value.length <= maxNameChars) {
@@ -68,83 +67,89 @@ export default function InternationalOffline() {
   const scriptURL =
     "https://script.google.com/macros/s/AKfycbyRQDBhVSuILMwGHbHPYaqg4tMTYFQx7yHzzmxaWgdsc8SWHuEmQIohQUUBP_jXgZCN3A/exec";
 
-    useEffect(() => {
-      const form = document.forms["regist-form"];
-  
-      if (form) {
-        const handleSubmit = async (e) => {
-          e.preventDefault();
-          setShowModal(true);
-          setCanClick(false);
-          setCountdown(5); // Set ulang countdown saat modal muncul
-  
-          let count = 5;
-          const interval = setInterval(() => {
-            count -= 1;
-            setCountdown(count);
-  
-            if (count <= 1) {
-              clearInterval(interval); // Hentikan countdown di angka 1
-              setCanClick(true);
-            }
-          }, 1000);
-        };
-  
-        form.addEventListener("submit", handleSubmit);
-        return () => {
-          form.removeEventListener("submit", handleSubmit);
-        };
-      }
-    }, []);
+  useEffect(() => {
+    const form = document.forms["regist-form"];
 
-    const handleConfirmSubmit = async () => {
-      setShowModal(false); // Close the modal
-      const form = document.forms["regist-form"];
-    
-      if (!form) return;
-    
-      setIsLoading(true);
-      try {
-        const response = await fetch(scriptURL, {
-          method: "POST",
-          body: new FormData(form),
-        });
-    
-        if (response.ok) {
-          setStatusMessage("Data sent successfully!");
-    
-          // Ambil data sebelum reset
-          const formData = {
-            namaLengkap: selectedMaxNamaLengkap,
-            projectTitle: selectedMaxProject,
-            category: selectedCategory,
-            namasekolah: selectedNamaSekolah,
-          };
-    
-          form.reset();
-    
-          // Navigasi ke halaman Thank You dengan query string
-          setTimeout(() => {
-            navigate(
-              `/thankyouinter?namaLengkap=${encodeURIComponent(formData.namaLengkap)}&projectTitle=${encodeURIComponent(formData.projectTitle)}&category=${encodeURIComponent(formData.category)}&namasekolah=${encodeURIComponent(formData.namasekolah)}`
-            );
-          }, 1000);
-        } else {
-          setStatusMessage("An error occurred while sending data.");
-        }
-      } catch (error) {
+    if (form) {
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        setShowModal(true);
+        setCanClick(false);
+        setCountdown(5); // Set ulang countdown saat modal muncul
+
+        let count = 5;
+        const interval = setInterval(() => {
+          count -= 1;
+          setCountdown(count);
+
+          if (count <= 1) {
+            clearInterval(interval); // Hentikan countdown di angka 1
+            setCanClick(true);
+          }
+        }, 1000);
+      };
+
+      form.addEventListener("submit", handleSubmit);
+      return () => {
+        form.removeEventListener("submit", handleSubmit);
+      };
+    }
+  }, []);
+
+  const handleConfirmSubmit = async () => {
+    setShowModal(false); // Close the modal
+    const form = document.forms["regist-form"];
+
+    if (!form) return;
+
+    setIsLoading(true);
+    try {
+      const response = await fetch(scriptURL, {
+        method: "POST",
+        body: new FormData(form),
+      });
+
+      if (response.ok) {
+        setStatusMessage("Data sent successfully!");
+
+        // Ambil data sebelum reset
+        const formData = {
+          namaLengkap: selectedMaxNamaLengkap,
+          projectTitle: selectedMaxProject,
+          category: selectedCategory,
+          namasekolah: selectedNamaSekolah,
+        };
+
+        form.reset();
+
+        // Navigasi ke halaman Thank You dengan query string
+        setTimeout(() => {
+          navigate(
+            `/thankyouinter?namaLengkap=${encodeURIComponent(
+              formData.namaLengkap
+            )}&projectTitle=${encodeURIComponent(
+              formData.projectTitle
+            )}&category=${encodeURIComponent(
+              formData.category
+            )}&namasekolah=${encodeURIComponent(formData.namasekolah)}`
+          );
+        }, 1000);
+      } else {
         setStatusMessage("An error occurred while sending data.");
-      } finally {
-        setIsLoading(false);
       }
-    };
+    } catch (error) {
+      setStatusMessage("An error occurred while sending data.");
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   return (
     <>
       <section className="registration-section">
         <div class="container">
           <div class="content">
-            <div class="sub">FORM REGISTRATION</div>
+            <div class="sub">REGISTRATION FORM</div>
             <h1 class="garis-bawah"></h1>
             <br />
             <br />
@@ -457,6 +462,7 @@ export default function InternationalOffline() {
                       Senior High School
                     </option>
                     <option value="University">University</option>
+                    <option value="Public (Teachers, Lecture, Researchers)">Public (Teachers, Lecture, Researchers)</option>
                   </select>
                 </div>
                 <div class="input-box">
@@ -567,25 +573,20 @@ export default function InternationalOffline() {
                     required
                   >
                     <option value="">--Choose Categories--</option>
-                    <option value="Agriculture & Aquaculture">Agriculture & Aquaculture</option>
                     <option value="Social Science">Social Science</option>
-                    <option value="Energy">Energy</option>
-                    <option value="Life Science">
-                      Life Science
+                    <option value="Innovative Science">
+                      Innovative Science
                     </option>
-                    <option value="Biotechnology">
-                      Biotechnology
+                    <option value="Environmental Science">
+                      Environmental Science
                     </option>
-                    <option value="Physic and Engineering">Physic and Engineering</option>
-                    <option value="Chemistry">
-                      Chemistry
+                    <option value="Engineering">Engineering</option>
+                    <option value="Education for Public (Teachers, Lecture, Researchers)">
+                      Education for Public (Teachers, Lecture, Researchers)
                     </option>
-                    <option value="Environment">
-                      Environment
-                    </option>
-                    <option value="Food Science">Food Science</option>
-                    <option value="Electronics and IoT">
-                      Electronics and IoT
+                    <option value="Classroom Action Research for Public (Teachers, Lecture, Researchers)">
+                      Classroom Action Research for Public (Teachers, Lecture,
+                      Researchers)
                     </option>
                   </select>
                 </div>

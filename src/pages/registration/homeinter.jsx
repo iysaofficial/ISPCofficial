@@ -52,7 +52,7 @@ function HomeInter() {
           </div>
           <div className="link-web mx-auto text-center">
             <a
-              className="btn btn-action text-center me-lg-5"
+              className="btn btn-regist text-center me-lg-5"
               onClick={() =>
                 handleOpenModal(
                   "/inter-online",
@@ -62,7 +62,7 @@ function HomeInter() {
             >
               Online Competition <i className="fa-solid fa-earth-americas"></i>
             </a>
-            <a
+            {/* <a
               className="btn btn-action text-center me-lg-5"
               onClick={() =>
                 handleOpenModal(
@@ -72,7 +72,7 @@ function HomeInter() {
               }
             >
               Offline Competition <i className="fa-solid fa-earth-americas"></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

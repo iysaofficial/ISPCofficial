@@ -18,7 +18,6 @@ export default function InternationalOnline() {
   const [canClick, setCanClick] = useState(false);
   const navigate = useNavigate();
 
-
   const handleInputNameChange = (e) => {
     const { value } = e.target;
     if (value.length <= maxNameChars) {
@@ -101,23 +100,22 @@ export default function InternationalOnline() {
     }
   }, []);
 
-
   const handleConfirmSubmit = async () => {
     setShowModal(false); // Close the modal
     const form = document.forms["regist-form"];
-  
+
     if (!form) return;
-  
+
     setIsLoading(true);
     try {
       const response = await fetch(scriptURL, {
         method: "POST",
         body: new FormData(form),
       });
-  
+
       if (response.ok) {
         setStatusMessage("Data sent successfully!");
-  
+
         // Ambil data sebelum reset
         const formData = {
           namaLengkap: selectedMaxNamaLengkap,
@@ -125,13 +123,19 @@ export default function InternationalOnline() {
           category: selectedCategory,
           namasekolah: selectedNamaSekolah,
         };
-  
+
         form.reset();
-  
+
         // Navigasi ke halaman Thank You dengan query string
         setTimeout(() => {
           navigate(
-            `/thankyouinter?namaLengkap=${encodeURIComponent(formData.namaLengkap)}&projectTitle=${encodeURIComponent(formData.projectTitle)}&category=${encodeURIComponent(formData.category)}&namasekolah=${encodeURIComponent(formData.namasekolah)}`
+            `/thankyouinter?namaLengkap=${encodeURIComponent(
+              formData.namaLengkap
+            )}&projectTitle=${encodeURIComponent(
+              formData.projectTitle
+            )}&category=${encodeURIComponent(
+              formData.category
+            )}&namasekolah=${encodeURIComponent(formData.namasekolah)}`
           );
         }, 1000);
       } else {
@@ -143,14 +147,13 @@ export default function InternationalOnline() {
       setIsLoading(false);
     }
   };
-  
 
   return (
     <>
       <section className="registration-section">
         <div class="container">
           <div class="content">
-            <div class="sub">FORM REGISTRATION</div>
+            <div class="sub">REGISTRATION FORM</div>
             <h1 class="garis-bawah"></h1>
             <br />
             <br />
@@ -468,6 +471,7 @@ export default function InternationalOnline() {
                       Senior High School
                     </option>
                     <option value="University">University</option>
+                    <option value="Public (Teachers, Lecture, Researchers)">Public (Teachers, Lecture, Researchers)</option>
                   </select>
                 </div>
                 <div class="input-box">
@@ -577,21 +581,20 @@ export default function InternationalOnline() {
                     required
                   >
                     <option value="">--Choose Categories--</option>
-                    <option value="Agriculture & Aquaculture">
-                      Agriculture & Aquaculture
-                    </option>
                     <option value="Social Science">Social Science</option>
-                    <option value="Energy">Energy</option>
-                    <option value="Life Science">Life Science</option>
-                    <option value="Biotechnology">Biotechnology</option>
-                    <option value="Physic and Engineering">
-                      Physic and Engineering
+                    <option value="Innovative Science">
+                      Innovative Science
                     </option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Environment">Environment</option>
-                    <option value="Food Science">Food Science</option>
-                    <option value="Electronics and IoT">
-                      Electronics and IoT
+                    <option value="Environmental Science">
+                      Environmental Science
+                    </option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Education for Public (Teachers, Lecture, Researchers)">
+                      Education for Public (Teachers, Lecture, Researchers)
+                    </option>
+                    <option value="Classroom Action Research for Public (Teachers, Lecture, Researchers)">
+                      Classroom Action Research for Public (Teachers, Lecture,
+                      Researchers)
                     </option>
                   </select>
                 </div>

@@ -13,10 +13,10 @@ function HomeRegist() {
               <h1 className="mx-auto text-sm md:text-lg lg:text-5xl">
                 REGISTRATION FORM
               </h1>
-              {/* <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Choose Categories Participant for Registration IICYMS
+              <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
+                Choose Categories Participant for Registration ISPC
                 2025
-              </h3> */}
+              </h3>
             </div>
           </div>
           <div className="link-web mx-auto text-center">
