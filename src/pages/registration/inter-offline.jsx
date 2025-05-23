@@ -1,6 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Navigation from "../../components/navigation";
+import Footer from "../../components/footer";
 
 export default function InternationalOffline() {
   const [selectedMaxNamaLengkap, setselectedMaxNamaLengkap] = useState("");
@@ -146,6 +148,7 @@ export default function InternationalOffline() {
 
   return (
     <>
+    <Navigation/>
       <section className="registration-section">
         <div class="container">
           <div class="content">
@@ -454,12 +457,9 @@ export default function InternationalOffline() {
                     required
                   >
                     <option value="">--Choose Your Grade--</option>
-                    <option value="Elementery">Elementery</option>
-                    <option value="Junior High School">
-                      Junior High School
-                    </option>
-                    <option value="Senior High School">
-                      Senior High School
+                   <option value="Elementary">Elementary</option>
+                    <option value="Secondary">
+                      Secondary
                     </option>
                     <option value="University">University</option>
                     <option value="Public (Teachers, Lecture, Researchers)">Public (Teachers, Lecture, Researchers)</option>
@@ -671,13 +671,13 @@ export default function InternationalOffline() {
                     <option value="">
                       --Select the Source of Information--
                     </option>
+                    <option value="ISPC Website">ISPC Website</option>
+                    <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
                     <option value="ISPC Instagram">ISPC Instagram</option>
                     <option value="Supervisor/School">Supervisor/School</option>
                     <option value="IYSA Facebook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
-                    <option value="IYSA Website">IYSA Website</option>
-                    <option value="ISPC Website">ISPC Website</option>
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="ISPC Email">ISPC Email</option>
                     <option value="Previous Event">Previous Event</option>
@@ -704,6 +704,7 @@ export default function InternationalOffline() {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 }

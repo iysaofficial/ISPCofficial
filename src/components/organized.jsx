@@ -9,7 +9,7 @@ function Organized() {
                 </div>
                 <div className="image col-12 col-lg-9 text-lg-start">
                     <img src="./assets/logo/LogoIYSA.WebP" className="img-fluid m-3 m-lg-5" alt=".." />
-                    <img src="./assets/logo/UMMremovebg.png" className="img-fluid m-3 m-lg-5" alt="" />
+                    {/* <img src="./assets/logo/UMMremovebg.png" className="img-fluid m-3 m-lg-5" alt="" /> */}
                 </div>
             </div>
     </section>

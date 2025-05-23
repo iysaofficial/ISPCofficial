@@ -62,8 +62,8 @@ function HomeInter() {
             >
               Online Competition <i className="fa-solid fa-earth-americas"></i>
             </a>
-            {/* <a
-              className="btn btn-action text-center me-lg-5"
+            <a
+              className="btn btn-regist text-center me-lg-5"
               onClick={() =>
                 handleOpenModal(
                   "/inter-offline",
@@ -72,7 +72,7 @@ function HomeInter() {
               }
             >
               Offline Competition <i className="fa-solid fa-earth-americas"></i>
-            </a> */}
+            </a>
           </div>
         </div>
       </section>
