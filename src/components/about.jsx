@@ -10,8 +10,11 @@ function About() {
                 </div>
                 <div className="content-text col-lg-6 col-12">
                     <p className="mb-2">
-                        The International Science Project Competition (ISPC) is an international science competition organized through a collaboration between the Indonesian Young Scientist Association (IYSA) and Universitas Muhammadiyah Malang (UMM). This competition aims to foster interest and motivation in science among the young generation worldwide.
+                        The International Science Project Competition (ISPC) is an international science competition organized by the Indonesian Young Scientist Association (IYSA). This competition aims to foster interest and motivation in science among the young generation worldwide.
                     </p>
+                    {/* <p className="mb-2">
+                        The International Science Project Competition (ISPC) is an international science competition organized through a collaboration between the Indonesian Young Scientist Association (IYSA) and Universitas Muhammadiyah Malang (UMM). This competition aims to foster interest and motivation in science among the young generation worldwide.
+                    </p> */}
                     <p className="mb-2">
                         ISPC is expected to contribute to improving the quality of science education in Indonesia and globally. The competition will encourage students to be more motivated to learn science and develop their potential.
                     </p>
@@ -26,4 +29,3 @@ function About() {
   }
   
   export default About
-  
