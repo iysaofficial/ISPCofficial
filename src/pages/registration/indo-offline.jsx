@@ -242,6 +242,9 @@ function IndonesiaOffline() {
                     <option value="International Science Project Competition - Offline Competition">
                       Offline Competition
                     </option>
+                    <option value="International Science Project Competition - Offline Competition + Excursion">
+                      Offline Competition + Excursion
+                    </option>
                   </select>
                 </div>
               </div>
@@ -650,15 +653,15 @@ function IndonesiaOffline() {
                     <option value="IYSA Website">IYSA Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
                     <option value="ISPC Instagram">ISPC Instagram</option>
-                    <option value="Pembimbing/Sekolah">
-                      Pembimbing/Sekolah
+                    <option value="Supervisor/School">
+                      Supervisor/School
                     </option>
                     <option value="IYSA Facebook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="ISPC Email">ISPC Email</option>
-                    <option value="Acara Sebelumnya">Acara Sebelumnya</option>
-                    <option value="Lainnya">Lainnya</option>
+                    <option value="Previous Event">Previous Event</option>
+                    <option value="Others">Others</option>
                   </select>
                 </div>
                 <div className="input-box">
