@@ -41,11 +41,10 @@ const footer = () => {
                 />
                 <p className="mb-2">
                   The International Science Project Competition (ISPC) is an
-                  international science competition organized through a
-                  collaboration between the Indonesian Young Scientist
-                  Association (IYSA) and Universitas Muhammadiyah Malang (UMM).
-                  This competition aims to foster interest and motivation in
-                  science among the young generation worldwide.
+                  international science competition organized by the Indonesian
+                  Young Scientist Association (IYSA). This competition aims to
+                  foster interest and motivation in science among the young
+                  generation worldwide.
                 </p>
               </div>
             </div>

@@ -60,7 +60,7 @@ function HomeIndo() {
               className="btn btn-regist text-center me-lg-5 "
               onClick={() => handleOpenModal("/indo-offline", indonesiaOfflineTerms)}
             >
-              Kompetisi Offline{" "}<i className="fa-solid fa-earth-americas"></i>
+              Offline Competition{" "}<i className="fa-solid fa-earth-americas"></i>
             </a>
           </div>
         </div>
