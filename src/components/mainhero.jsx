@@ -18,7 +18,7 @@ function MainHero() {
                     {/* <a className="btn btn-action" >Coming Soon 2025</a> */}
                     <a className="btn btn-action" href="/homeregist">Registration Here</a>
                     <a className="btn btn-action" href="https://drive.google.com/file/d/1wpmmubMDQP_wQ9XJuxe0ppAvHY3ESObY/view?usp=sharing" target="_blank">Guide Book</a>
-                </div>
+                </div>  
             </div>
         </section>
     </>
