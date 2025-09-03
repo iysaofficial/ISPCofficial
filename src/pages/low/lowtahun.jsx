@@ -17,6 +17,9 @@ function Lowtahun() {
             <h1>Select by the year of the event you are participating in</h1>
           </div>
           <div className="content-button mt-4">
+            <a href="/kategori25" className="btn btn-action btn-lg">
+              2025
+            </a>
             <a href="/kategori24" className="btn btn-action btn-lg">
               2024
             </a>

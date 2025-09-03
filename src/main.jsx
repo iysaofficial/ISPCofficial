@@ -6,6 +6,8 @@ import FAQ from "./pages/faq";
 import ContactPage from "./pages/contactpages";
 import Lowtahun from "./pages/low/lowtahun";
 import Kategori24 from "./pages/low/2024/kategori24";
+import Kategori25 from "./pages/low/2025/kategori25";
+import Jenjangonl25 from "./pages/low/2025/jenjangonl25";
 // import HomeRegist from "./pages/registration/homeregist";
 // import HomeIndo from "./pages/registration/homeindo";
 // import HomeInter from "./pages/registration/homeinter";
@@ -13,7 +15,6 @@ import Kategori24 from "./pages/low/2024/kategori24";
 // import IndonesiaOnline from "./pages/registration/indo-online";
 // import InternationalOffline from "./pages/registration/inter-offline";
 // import InternationalOnline from "./pages/registration/inter-online";
-import ThankYouIndo from "./pages/registration/thankyouindo";
 import Thankyouinter from "./pages/registration/thankyouinter";
 // import ContactPage from "./pages/contactpages";
 // import Faq from "./pages/faq";
@@ -39,6 +40,14 @@ const router = createBrowserRouter([
   {
     path: "/kategori24",
     element: <Kategori24 />
+  },
+  {
+    path: "/kategori25",
+    element: <Kategori25 />
+  },
+  {
+    path: "/jenjangonl25",
+    element: <Jenjangonl25 />
   },
   // {
   //   path: "/homeregist",
@@ -68,10 +77,6 @@ const router = createBrowserRouter([
   //   path: "/inter-online",
   //   element: <InternationalOnline />
   // },
-  {
-    path: "/thankyouindo",
-    element: <ThankYouIndo />
-  },
   {
     path: "/thankyouinter",
     element: <Thankyouinter />
