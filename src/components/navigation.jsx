@@ -76,7 +76,7 @@ const navigation = () => {
               </a>
               <a
                 className="nav-item nav-link"
-                href="https://drive.google.com/drive/folders/18nFoDTRC3LgfG5Pgo5heJEgXkzoWiSUw?usp=drive_link"
+                href="https://drive.google.com/file/d/115ioYB9Yi-oLTRBO2GysgJIoxS_mgI5u/view?usp=sharing"
                 target="_blank"
               >
                 Press Release{" "}

@@ -1,6 +1,37 @@
 import "../assets/css/styles.css";
-
+import { useEffect } from "react";
 const footer = () => {
+  useEffect(() => {
+      const scriptURL =
+      "https://script.google.com/macros/s/AKfycbwfw1dAhzyY6p6crVCCuoEXzb_E7hBOi8cYuIBu_-JZzz2a25h-tCvT6Xd3dUH9Mx2fQA/exec";
+
+      const form = document.forms.namedItem("footer-newsletter");
+
+      if (form) {
+      const handleSubmit = async (e) => {
+          e.preventDefault();
+          try {
+          await fetch(scriptURL, {
+              method: "POST",
+              body: new FormData(form),
+          });
+          alert("Data sent successfully!");
+          form.reset();
+          } catch (error) {
+          console.error("Error:", error);
+          alert("Failed to send data.");
+          }
+      };
+
+      form.addEventListener("submit", handleSubmit);
+
+      // cleanup listener
+      return () => {
+          form.removeEventListener("submit", handleSubmit);
+      };
+      }
+  }, []);
+
   return (
     <section>
       <footer className="footer-section">
@@ -9,7 +40,8 @@ const footer = () => {
             <div className="col-10 col-lg-6">
               <div className="subscribe mb-5">
                 <form
-                  action="https://formspree.io/f/xoqoddrr"
+                  action=""
+                  name="footer-newsletter"
                   method="POST"
                   className="subscribe-form"
                 >
@@ -19,7 +51,7 @@ const footer = () => {
                       className="form-control rounded-left"
                       placeholder="Enter email address"
                       required
-                      name="email"
+                      name="Email"
                     />
                     <input
                       type="submit"
