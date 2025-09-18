@@ -29,7 +29,7 @@ function ListNews() {
               <p>
                 {" "}
                 Jabaran.id – The Indonesian Young Scientist Association (IYSA) has once again successfully held three prestigious international competitions, namely GloCoLiS (Global Competition for Life Sciences), International Social Project Competition (ISPC), and World Essay Competition Championship (WECC). This year marks a special milestone with
-                the 5th anniversary of GloCoLiS, as well as the 2nd anniversary of ISPC and WECC.Translated with DeepL.com (free version)
+                the 5th anniversary of GloCoLiS, as well as the 2nd anniversary of ISPC and WECC.
               </p>
               <a
                 href="https://jabaran.id/glocolis-ispc-dan-wecc-2025-sukses-diselenggarakan-di-universitas-dian-nuswantoro-semarang/"
