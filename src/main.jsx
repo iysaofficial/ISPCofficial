@@ -20,6 +20,7 @@ import Thankyouinter from "./pages/registration/thankyouinter";
 // import ContactPage from "./pages/contactpages";
 // import Faq from "./pages/faq";
 // import PosterPage from "./pages/posterlayoutpages";
+import ListNews from "./pages/news/listnews";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
   {
     path: "/jenjangoff25",
     element: <Jenjangoff25 />
+  },
+  {
+    path: "/listnews",
+    element: <ListNews />
   },
   // {
   //   path: "/homeregist",

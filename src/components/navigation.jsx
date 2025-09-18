@@ -78,15 +78,23 @@ const navigation = () => {
                   2024
                 </NavDropdown.Item>
               </NavDropdown>
+              <NavDropdown title="Media" id="nav-dropdown">
+                <NavDropdown.Item
+                  eventKey="4.1"
+                  href="/listnews"
+                >
+                  News from Media
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  eventKey="4.1"
+                  href="https://drive.google.com/file/d/115ioYB9Yi-oLTRBO2GysgJIoxS_mgI5u/view?usp=sharing"
+                  target="_blank"
+                >
+                  Press Release 2025
+                </NavDropdown.Item>
+              </NavDropdown>
               <a className="nav-item nav-link" href="https://drive.google.com/drive/folders/1wKdfpoiYnZFSHBtfCtPtdosKWrD0xVaD?usp=drive_link">
                 Curation{" "}
-              </a>
-              <a
-                className="nav-item nav-link"
-                href="https://drive.google.com/file/d/115ioYB9Yi-oLTRBO2GysgJIoxS_mgI5u/view?usp=sharing"
-                target="_blank"
-              >
-                Press Release{" "}
               </a>
               <a className="nav-item nav-link" href="/contact">
                 Contact{" "}
