@@ -93,9 +93,22 @@ const navigation = () => {
                   Press Release 2025
                 </NavDropdown.Item>
               </NavDropdown>
-              <a className="nav-item nav-link" href="https://drive.google.com/drive/folders/1wKdfpoiYnZFSHBtfCtPtdosKWrD0xVaD?usp=drive_link">
-                Curation{" "}
-              </a>
+              <NavDropdown title="Curation" id="nav-dropdown">
+                <NavDropdown.Item
+                  eventKey="4.2"
+                  href="https://drive.google.com/drive/folders/1-3IagOtB_ebgDPgR05Agt3v1ogYUa9Xm?usp=sharing"
+                  target="_blank"
+                >
+                  Curation 2025
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  eventKey="4.1"
+                  href="https://drive.google.com/drive/folders/1wKdfpoiYnZFSHBtfCtPtdosKWrD0xVaD?usp=drive_link"
+                  target="_blank"
+                >
+                  Curation 2024
+                </NavDropdown.Item>
+              </NavDropdown>  
               <a className="nav-item nav-link" href="/contact">
                 Contact{" "}
               </a>
