@@ -9,13 +9,13 @@ import Kategori24 from "./pages/low/2024/kategori24";
 import Kategori25 from "./pages/low/2025/kategori25";
 import Jenjangonl25 from "./pages/low/2025/jenjangonl25";
 import Jenjangoff25 from "./pages/low/2025/jenjangoff25";
-// import HomeRegist from "./pages/registration/homeregist";
-// import HomeIndo from "./pages/registration/homeindo";
-// import HomeInter from "./pages/registration/homeinter";
-// import IndonesiaOffline from "./pages/registration/indo-offline";
-// import IndonesiaOnline from "./pages/registration/indo-online";
-// import InternationalOffline from "./pages/registration/inter-offline";
-// import InternationalOnline from "./pages/registration/inter-online";
+import HomeRegist from "./pages/registration/homeregist";
+import HomeIndo from "./pages/registration/homeindo";
+import HomeInter from "./pages/registration/homeinter";
+import IndonesiaOffline from "./pages/registration/indo-offline";
+import IndonesiaOnline from "./pages/registration/indo-online";
+import InternationalOffline from "./pages/registration/inter-offline";
+import InternationalOnline from "./pages/registration/inter-online";
 import Thankyouinter from "./pages/registration/thankyouinter";
 // import ContactPage from "./pages/contactpages";
 // import Faq from "./pages/faq";
@@ -59,34 +59,34 @@ const router = createBrowserRouter([
     path: "/listnews",
     element: <ListNews />
   },
-  // {
-  //   path: "/homeregist",
-  //   element: <HomeRegist />
-  // },
-  // {
-  //   path: "/homeindo",
-  //   element: <HomeIndo />
-  // },
-  // {
-  //   path: "/homeinter",
-  //   element: <HomeInter />
-  // },
-  // {
-  //   path: "/indo-offline",
-  //   element: <IndonesiaOffline />
-  // },
-  // {
-  //   path: "/indo-online",
-  //   element: <IndonesiaOnline />
-  // },
-  // {
-  //   path: "/inter-offline",
-  //   element: <InternationalOffline />
-  // },
-  // {
-  //   path: "/inter-online",
-  //   element: <InternationalOnline />
-  // },
+  {
+    path: "/homeregist",
+    element: <HomeRegist />
+  },
+  {
+    path: "/homeindo",
+    element: <HomeIndo />
+  },
+  {
+    path: "/homeinter",
+    element: <HomeInter />
+  },
+  {
+    path: "/indo-offline",
+    element: <IndonesiaOffline />
+  },
+  {
+    path: "/indo-online",
+    element: <IndonesiaOnline />
+  },
+  {
+    path: "/inter-offline",
+    element: <InternationalOffline />
+  },
+  {
+    path: "/inter-online",
+    element: <InternationalOnline />
+  },
   {
     path: "/thankyouinter",
     element: <Thankyouinter />

@@ -63,7 +63,7 @@ function IndonesiaOffline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbwBuhPS9EXxI7mBoTDsoSE9mYTi4-Y-KkwWCTgk6UwJLuf9yxOEPtp9AbO6_XdhnmXpiQ/exec";
+    "https://script.google.com/macros/s/AKfycbwv-qCFWpKUaI1VnWDZp0OtFDThNTCjP3UzNEMMFCWrXKjU6cHSbFZ5c5k2eUWl6WB9/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -152,7 +152,7 @@ function IndonesiaOffline() {
             <br />
             <br />
             <h4>
-              HELLO ISPC 2025 PARTICIPANTS, Please consider the following
+              HELLO ISPC 2026 PARTICIPANTS, Please consider the following
               information before filling out the registration form :
             </h4>
             <br />
@@ -638,7 +638,7 @@ function IndonesiaOffline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    ISPC 2025 Competition Information Resources
+                    ISPC 2026 Competition Information Resources
                   </label>
                   <select
                     type="text"

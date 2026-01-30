@@ -47,13 +47,13 @@ export default function InternationalOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "International Science Project Competition - Online Competition":
-        setCategoryPrice("$75 USD");
+        setCategoryPrice("$105 USD");
         break;
       case "International Science Project Competition - Online Competition + Certificate and Medal (SOUTH EAST ASIA ONLY)":
-        setCategoryPrice("$200 USD");
+        setCategoryPrice("$225 USD");
         break;
       case "International Science Project Competition - Online Competition + Certificate and Medal (Exclude SOUTH EAST ASIA)":
-        setCategoryPrice("$250 USD");
+        setCategoryPrice("$275 USD");
         break;
       default:
         setCategoryPrice("");
@@ -71,7 +71,7 @@ export default function InternationalOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbzwF-2A_TVYDqiAU7SaTZGozb23aXM6cJf5MuFDih2CstNnosjn336DIYh0KIW--qRzew/exec";
+    "https://script.google.com/macros/s/AKfycbxKckZCb8lL7SLa0w8a7TawFF4xmCN8_osLScvLfkvXv0VfDPLPS_yewxZd8wyYrbE/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -161,7 +161,7 @@ export default function InternationalOnline() {
             <br />
             <br />
             <h4>
-              HELLO ISPC 2025 PARTICIPANTS, Please consider the following
+              HELLO ISPC 2026 PARTICIPANTS, Please consider the following
               information before filling out the registration form :
             </h4>
             <br />
@@ -682,7 +682,7 @@ export default function InternationalOnline() {
 
                 <div class="input-box">
                   <label for="INFORMATION_RESOURCES" class="form-label">
-                    ISPC 2025 Competition Information Resources
+                    ISPC 2026 Competition Information Resources
                   </label>
                   <select
                     type="text"

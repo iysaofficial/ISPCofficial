@@ -48,7 +48,7 @@ function IndonesiaOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "International Science Project Competition - Online Competition":
-        setCategoryPrice("RP 950.000");
+        setCategoryPrice("RP 1.150.000");
         break;
       default:
         break;
@@ -64,7 +64,7 @@ function IndonesiaOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbyRhCuy8cK36jC3h1oEaqxVei5j0efvoZV7BLLLbbnr7nhLiRkqyxyLdI_S8pOCev_gYA/exec";
+    "https://script.google.com/macros/s/AKfycbwVKLmOkQ5WY6nwbRrpDsI6ZmYYtntCFHsMWqqDy1oWc3vjSb3pd0b9gD9RSdYFvXHx/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -153,7 +153,7 @@ function IndonesiaOnline() {
             <br />
             <br />
             <h4>
-              HELLO ISPC 2025 PARTICIPANTS, Please consider the following
+              HELLO ISPC 2026 PARTICIPANTS, Please consider the following
               information before filling out the registration form :
             </h4>
             <br />
@@ -647,7 +647,7 @@ function IndonesiaOnline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    ISPC 2025 Competition Information Resources
+                    ISPC 2026 Competition Information Resources
                   </label>
                   <select
                     type="text"

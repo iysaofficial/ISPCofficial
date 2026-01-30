@@ -67,7 +67,7 @@ export default function InternationalOffline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbyRQDBhVSuILMwGHbHPYaqg4tMTYFQx7yHzzmxaWgdsc8SWHuEmQIohQUUBP_jXgZCN3A/exec";
+    "https://script.google.com/macros/s/AKfycbwF12qN1WRk0DFueRdC7ETiL4QI7T9A4DJ8nWARdhzCk3i1wtAaSvFU2OJyFF8P0030/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -157,7 +157,7 @@ export default function InternationalOffline() {
             <br />
             <br />
             <h4>
-              HELLO ISPC 2025 PARTICIPANTS, Please consider the following
+              HELLO ISPC 2026 PARTICIPANTS, Please consider the following
               information before filling out the registration form :
             </h4>
             <br />
@@ -658,7 +658,7 @@ export default function InternationalOffline() {
 
                 <div class="input-box">
                   <label for="INFORMATION_RESOURCES" class="form-label">
-                    ISPC 2025 Competition Information Resources
+                    ISPC 2026 Competition Information Resources
                   </label>
                   <select
                     type="text"
