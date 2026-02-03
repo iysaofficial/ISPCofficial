@@ -17,5 +17,4 @@ function Organized() {
     )
 }
   
-  export default Organized
-  
+export default Organized

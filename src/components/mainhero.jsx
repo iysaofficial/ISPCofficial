@@ -22,7 +22,7 @@ function MainHero() {
                 <div className="second-content text-center">
                     {/* <a className="btn btn-action">Coming Soon 2026</a> */}
                     <a className="btn btn-action" href="/homeregist">Registration</a>
-                    <a className="btn btn-action" href="https://drive.google.com/file/d/1wpmmubMDQP_wQ9XJuxe0ppAvHY3ESObY/view?usp=sharing" target="_blank">Guide Book</a>
+                    <a className="btn btn-action" href="https://drive.google.com/file/d/1sw22ZVgsEDN7IK1F3mx0wQmLrjZu_hmj/view?usp=sharing" target="_blank">Guide Book</a>
                 </div>  
             </div>
         </section>
