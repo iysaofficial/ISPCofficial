@@ -114,7 +114,7 @@ export const internationalOfflineTerms = (
       poster) after two reminders will be considered automatically resigned.
     </li>
     <li>
-      Participants must use titles and extended abstracts that are in accordance
+      Participants must use titles and full paper that are in accordance
       with the category they are participating in. (International participants
       must use English for all requirements)
     </li>
