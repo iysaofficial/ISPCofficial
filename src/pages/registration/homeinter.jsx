@@ -11,20 +11,17 @@ function HomeInter() {
   const [termsAccepted, setTermsAccepted] = useState(false);
   const [redirectLink, setRedirectLink] = useState("");
   const [termsContent, setTermsContent] = useState("");
-  const [hasViewedTerms, setHasViewedTerms] = useState(false);
-  const [showTooltip, setShowTooltip] = useState(false);
+
 
   const handleOpenModal = (link, terms) => {
     setRedirectLink(link); // Set link tujuan redirect
     setTermsContent(terms); // Set isi terms sesuai pilihan
     setTermsAccepted(false); // Reset state persetujuan
-    setHasViewedTerms(false); // Reset state sudah melihat
     setShowModal(true); // Tampilkan modal
   };
 
   const handleViewTerms = () => {
     window.open("https://drive.google.com/file/d/1KOtyI8EZO42INO4Q_IeiTmBQCc_8JtTl/view?usp=sharing", "_blank");
-    setHasViewedTerms(true);
   };
 
   const handleAccept = () => {
@@ -54,13 +51,13 @@ function HomeInter() {
           </div>
           <div className="link-web mx-auto text-center">
             <a className="btn btn-action text-center me-lg-5" onClick={() =>
-                handleOpenModal("/inter-online", internationalOnlineTerms)
-              }>
+              handleOpenModal("/inter-online", internationalOnlineTerms)
+            }>
               Online Competition <i className="fa-solid fa-earth-americas"></i>
             </a>
             <a className="btn btn-action text-center me-lg-5" onClick={() =>
-                handleOpenModal("/inter-offline", internationalOfflineTerms)
-              }>
+              handleOpenModal("/inter-offline", internationalOfflineTerms)
+            }>
               Offline Competition{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>
@@ -84,24 +81,13 @@ function HomeInter() {
             </div>
             <div className="modal-footer">
               <div className="terms-agreement">
-                <div
-                  className="checkbox-wrapper"
-                  onMouseEnter={() => !hasViewedTerms && setShowTooltip(true)}
-                  onMouseLeave={() => setShowTooltip(false)}
-                  onClick={() => !hasViewedTerms && setShowTooltip(!showTooltip)}
-                >
+                <div className="checkbox-wrapper">
                   <input
                     type="checkbox"
                     id="terms"
                     checked={termsAccepted}
-                    disabled={!hasViewedTerms}
                     onChange={(e) => setTermsAccepted(e.target.checked)}
                   />
-                  {showTooltip && (
-                    <div className="custom-tooltip">
-                      Please view the link Terms & Conditions first
-                    </div>
-                  )}
                 </div>
                 <label htmlFor="terms">
                   I have read and agree to the{" "}
