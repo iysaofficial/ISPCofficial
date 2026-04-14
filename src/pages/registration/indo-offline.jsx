@@ -12,6 +12,7 @@ function IndonesiaOffline() {
   const maxSchoolChars = 500; // batasan maksimal karakter
   const maxProjectChars = 160; // batasan maksimal karakter
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [categoryPrice, setCategoryPrice] = useState("");
   const [statusMessage, setStatusMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -47,6 +48,7 @@ function IndonesiaOffline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "International Science Project Competition - Offline Competition":
+        setCategoryPrice("RP 3.150.000");
         break;
       default:
         break;
@@ -242,9 +244,9 @@ function IndonesiaOffline() {
                     <option value="International Science Project Competition - Offline Competition">
                       Offline Competition
                     </option>
-                    <option value="International Science Project Competition - Offline Competition + Excursion">
+                    {/* <option value="International Science Project Competition - Offline Competition + Excursion">
                       Offline Competition + Excursion
-                    </option>
+                    </option> */}
                   </select>
                 </div>
               </div>
@@ -603,6 +605,21 @@ function IndonesiaOffline() {
                     placeholder="Input Competition Name"
                   ></textarea>
                   <div className="mt-5" id="form_alerts"></div>
+                </div>
+                {/* Kolom Harga */}
+                <div className="input-box">
+                  <label htmlFor="CATEGORY_PRICE" className="form-label ">
+                    Registration Price
+                  </label>
+                  <input
+                    type="text"
+                    id="CATEGORY_PRICE"
+                    name="CATEGORY_PRICE"
+                    className="form-control"
+                    placeholder=""
+                    value={categoryPrice}
+                    readOnly
+                  />
                 </div>
               </div>
               {/* DETAIL PROJECT END */}
