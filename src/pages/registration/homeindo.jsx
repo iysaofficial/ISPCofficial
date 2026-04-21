@@ -48,17 +48,24 @@ function HomeIndo() {
             </div>
           </div>
           <div className="link-web mx-auto text-center">
-            <a className="btn btn-action text-center me-lg-5" onClick={() =>
+            <a className="btn btn-action text-center me-lg-5" href="#!">
+              Coming Soon <i className="fa-solid fa-earth-americas"></i>
+            </a>
+            {/* <a className="btn btn-action text-center me-lg-5" onClick={() =>
               handleOpenModal("/indo-online", indonesiaOnlineTerms)
             }>
               Online Competition <i className="fa-solid fa-earth-americas"></i>
+            </a> */}
+            <a className="btn btn-action text-center me-lg-5" href="#!">
+              Coming Soon{" "}
+              <i className="fa-solid fa-earth-americas"></i>
             </a>
-            <a className="btn btn-action text-center me-lg-5" onClick={() =>
+            {/* <a className="btn btn-action text-center me-lg-5" onClick={() =>
               handleOpenModal("/indo-offline", indonesiaOfflineTerms)
             }>
               Offline Competition{" "}
               <i className="fa-solid fa-earth-americas"></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
