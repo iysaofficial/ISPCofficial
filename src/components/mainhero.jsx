@@ -20,9 +20,9 @@ function MainHero() {
                         </div>
                     </div>
                     <div className="second-content text-center">
-                        <a className="btn btn-action" href="#!">Coming Soon 2027</a>
-                        {/* <a className="btn btn-action" href="/homeregist">Registration</a> */}
-                        {/* <a className="btn btn-action" href="https://drive.google.com/drive/folders/1ojJCV0eBDz5xfujIpR41g0RhsMmOsTZ_?usp=sharing" target="_blank">Guide Book</a> */}
+                        {/* <a className="btn btn-action" href="#!">Coming Soon 2027</a> */}
+                        <a className="btn btn-action" href="/homeregist">Registration</a>
+                        <a className="btn btn-action" href="https://drive.google.com/drive/folders/1ojJCV0eBDz5xfujIpR41g0RhsMmOsTZ_?usp=sharing" target="_blank">Guide Book</a>
                     </div>
                 </div>
             </section>
