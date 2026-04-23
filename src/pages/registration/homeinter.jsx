@@ -12,7 +12,6 @@ function HomeInter() {
   const [redirectLink, setRedirectLink] = useState("");
   const [termsContent, setTermsContent] = useState("");
 
-
   const handleOpenModal = (link, terms) => {
     setRedirectLink(link); // Set link tujuan redirect
     setTermsContent(terms); // Set isi terms sesuai pilihan
@@ -21,7 +20,10 @@ function HomeInter() {
   };
 
   const handleViewTerms = () => {
-    window.open("https://drive.google.com/file/d/1KOtyI8EZO42INO4Q_IeiTmBQCc_8JtTl/view?usp=sharing", "_blank");
+    window.open(
+      "https://drive.google.com/file/d/1KOtyI8EZO42INO4Q_IeiTmBQCc_8JtTl/view?usp=sharing",
+      "_blank",
+    );
   };
 
   const handleAccept = () => {
@@ -50,24 +52,23 @@ function HomeInter() {
             </div>
           </div>
           <div className="link-web mx-auto text-center">
-            {/* <a className="btn btn-action text-center me-lg-5" href="#!">
+            <a className="btn btn-action text-center me-lg-5" href="#!">
               Coming Soon <i className="fa-solid fa-earth-americas"></i>
-            </a> */}
-            <a className="btn btn-action text-center me-lg-5" onClick={() =>
+            </a>
+            {/* <a className="btn btn-action text-center me-lg-5" onClick={() =>
               handleOpenModal("/inter-online", internationalOnlineTerms)
             }>
               Online Competition <i className="fa-solid fa-earth-americas"></i>
-            </a>
-            {/* <a className="btn btn-action text-center me-lg-5" href="#!">
-              Coming Soon{" "}
-              <i className="fa-solid fa-earth-americas"></i>
             </a> */}
-            <a className="btn btn-action text-center me-lg-5" onClick={() =>
+            <a className="btn btn-action text-center me-lg-5" href="#!">
+              Coming Soon <i className="fa-solid fa-earth-americas"></i>
+            </a>
+            {/* <a className="btn btn-action text-center me-lg-5" onClick={() =>
               handleOpenModal("/inter-offline", internationalOfflineTerms)
             }>
               Offline Competition{" "}
               <i className="fa-solid fa-earth-americas"></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -78,12 +79,18 @@ function HomeInter() {
           <div className="modal-content">
             <div className="modal-header">
               <h2>Terms & Conditions</h2>
-              <button onClick={() => setShowModal(false)} className="modal-close-btn">&times;</button>
+              <button
+                onClick={() => setShowModal(false)}
+                className="modal-close-btn"
+              >
+                &times;
+              </button>
             </div>
             <div className="modal-body">
               {termsContent}
               <p>
-                Please review the terms and conditions carefully before proceeding.
+                Please review the terms and conditions carefully before
+                proceeding.
               </p>
             </div>
             <div className="modal-footer">
@@ -98,9 +105,16 @@ function HomeInter() {
                 </div>
                 <label htmlFor="terms">
                   I have read and agree to the{" "}
-                  <a href="#" onClick={(e) => { e.preventDefault(); handleViewTerms(); }}>
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleViewTerms();
+                    }}
+                  >
                     Terms & Conditions
-                  </a>.
+                  </a>
+                  .
                 </label>
               </div>
               <div className="modal-actions">

@@ -1,6 +1,6 @@
 import Navigation from "../../components/navigation";
 import Footer from "../../components/footer";
-import '../../assets/css/registration.css'
+import "../../assets/css/registration.css";
 
 function HomeRegist() {
   return (
@@ -19,22 +19,26 @@ function HomeRegist() {
             </div>
           </div>
           <div className="link-web mx-auto text-center">
-            {/* <a href="#!" className="btn-regist btn-action text-center me-lg-5 m-2">
-              Coming Soon{" "}
-              <i className="fa-solid fa-earth-americas"></i>
-            </a> */}
-            <a href="/homeindo" className="btn-regist btn-action text-center me-lg-5 m-2">
+            <a
+              href="#!"
+              className="btn-regist btn-action text-center me-lg-5 m-2"
+            >
+              Coming Soon <i className="fa-solid fa-earth-americas"></i>
+            </a>
+            {/* <a href="/homeindo" className="btn-regist btn-action text-center me-lg-5 m-2">
               Indonesia Participant{" "}
               <i className="fa-solid fa-earth-americas"></i>
-            </a>
-            {/* <a href="#!" className="btn-regist btn-action text-center me-lg-5 m-2">
-              Coming Soon{" "}
-              <i className="fa-solid fa-earth-americas"></i>
             </a> */}
-            <a href="/homeinter" className="btn-regist btn-action text-center me-lg-5 m-2">
+            <a
+              href="#!"
+              className="btn-regist btn-action text-center me-lg-5 m-2"
+            >
+              Coming Soon <i className="fa-solid fa-earth-americas"></i>
+            </a>
+            {/* <a href="/homeinter" className="btn-regist btn-action text-center me-lg-5 m-2">
               International Participant{" "}
               <i className="fa-solid fa-earth-americas"></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
