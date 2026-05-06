@@ -8,9 +8,9 @@ function MainHero() {
                         <img src="./assets/img/ISPC LOGO.png" alt="" />
                     </div> */}
             <div className="text-content ">
-              <h1>OPEN REGISTRATION FOR 2026 PARTICIPANTS</h1>
-              <h1>COMING SOON</h1>
-              <h1>COMING SOON 2026</h1>
+              {/* <h1>OPEN REGISTRATION FOR 2026 PARTICIPANTS</h1> */}
+              {/* <h1>COMING SOON</h1> */}
+              <h1>COMING SOON 2027</h1>
               <p className="mx-auto">
                 International Science Project Competition (ISPC) It's a stage
                 for innovators, researchers, and young thinkers from around the
@@ -28,7 +28,7 @@ function MainHero() {
           </div>
           <div className="second-content text-center">
             <a className="btn btn-action" href="#!">
-              Close Registration
+              Close Registration !
             </a>
             {/* <a className="btn btn-action" href="/homeregist">Registration</a> */}
             {/* <a className="btn btn-action" href="https://drive.google.com/drive/folders/1ojJCV0eBDz5xfujIpR41g0RhsMmOsTZ_?usp=sharing" target="_blank">Guide Book</a> */}
