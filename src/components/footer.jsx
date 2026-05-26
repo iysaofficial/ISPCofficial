@@ -1,6 +1,6 @@
 import "../assets/css/styles.css";
 import { useEffect } from "react";
-const footer = () => {
+const Footer = () => {
   useEffect(() => {
       const scriptURL =
       "https://script.google.com/macros/s/AKfycbwfw1dAhzyY6p6crVCCuoEXzb_E7hBOi8cYuIBu_-JZzz2a25h-tCvT6Xd3dUH9Mx2fQA/exec";
@@ -188,4 +188,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

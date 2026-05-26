@@ -2,7 +2,7 @@ import "../assets/css/styles.css";
 import React, { useState } from 'react';
 
 
-export default function compFaq() {
+export default function CompFaq() {
     
   const [isModalOpen, setIsModalOpen] = useState(false);
 

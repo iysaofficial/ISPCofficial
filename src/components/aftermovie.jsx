@@ -12,7 +12,7 @@ function Aftermovie() {
                   width="75%"
                   height="350"
                   src="https://www.youtube.com/embed/pNOccTM2dDs?si=VC5ljKo7r0tqOYEv"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard"
                   title="YouTube video player"
                   allowfullscreen

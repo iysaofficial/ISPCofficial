@@ -46,31 +46,31 @@ function CompContact() {
                 </div>
                 <form action="" name="contact" method="POST" id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <input type="hidden" name="Event" value="ISPC" readOnly />
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
+                    <div className="row align-items-stretch mb-5">
+                        <div className="col-md-6">
                             {/* Name input */}
-                            <div class="form-group">
-                                <input class="form-control" id="name" type="text" name="Name" placeholder="Your Name *" required />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <div className="form-group">
+                                <input className="form-control" id="name" type="text" name="Name" placeholder="Your Name *" required />
+                                <div className="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             {/* Email address input  */}
-                            <div class="form-group">
-                                <input class="form-control" id="email" type="email" name="Email" placeholder="Your Email *" required />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            <div className="form-group">
+                                <input className="form-control" id="email" type="email" name="Email" placeholder="Your Email *" required />
+                                <div className="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div className="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                         </div>
                         {/* Message input */}
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" name="Message" placeholder="Your Message *" required></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                        <div className="col-md-6">
+                            <div className="form-group form-group-textarea mb-md-0">
+                                <textarea className="form-control" id="message" name="Message" placeholder="Your Message *" required></textarea>
+                                <div className="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
                     {/* Submit Button */}
-                    <div class="text-center"><button class="btn btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
+                    <div className="text-center"><button className="btn btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
                 </form>
             </div>
         </section>

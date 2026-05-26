@@ -49,6 +49,13 @@ const navigation = () => {
               <NavDropdown title="Certificate" id="nav-dropdown">
                 <NavDropdown.Item
                   eventKey="2.1"
+                  href="https://drive.google.com/drive/folders/1sXpxFNbxyLJn6rMhMGl3ZSAHOUew15tR?usp=sharing"
+                  target="_blank"
+                >
+                  Certificate Supervisor 2026
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  eventKey="2.1"
                   href="https://drive.google.com/drive/folders/1168Gqp_t-une_HfMMhlB8A4tvlbcdxwZ?usp=sharing"
                   target="_blank"
                 >

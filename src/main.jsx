@@ -7,8 +7,11 @@ import ContactPage from "./pages/contactpages";
 import Lowtahun from "./pages/low/lowtahun";
 import Kategori24 from "./pages/low/2024/kategori24";
 import Kategori25 from "./pages/low/2025/kategori25";
+import Kategori26 from "./pages/low/2026/kategori26";
 import Jenjangonl25 from "./pages/low/2025/jenjangonl25";
 import Jenjangoff25 from "./pages/low/2025/jenjangoff25";
+import Jenjangonl26 from "./pages/low/2026/jenjangonl26";
+import Jenjangoff26 from "./pages/low/2026/jenjangoff26";
 import HomeRegist from "./pages/registration/homeregist";
 import HomeIndo from "./pages/registration/homeindo";
 import HomeInter from "./pages/registration/homeinter";
@@ -48,12 +51,24 @@ const router = createBrowserRouter([
     element: <Kategori25 />
   },
   {
+    path: "/kategori26",
+    element: <Kategori26 />
+  },
+  {
     path: "/jenjangonl25",
     element: <Jenjangonl25 />
   },
   {
+    path: "/jenjangonl26",
+    element: <Jenjangonl26 />
+  },
+  {
     path: "/jenjangoff25",
     element: <Jenjangoff25 />
+  },
+  {
+    path: "/jenjangoff26",
+    element: <Jenjangoff26 />
   },
   {
     path: "/listnews",

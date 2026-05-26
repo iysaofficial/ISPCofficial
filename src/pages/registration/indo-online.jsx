@@ -227,7 +227,7 @@ function IndonesiaOnline() {
                   />
                 </div>
                 <div className="input-box">
-                  <label for="CATEGORY_COMPETITION" className="form-label">
+                  <label htmlFor="CATEGORY_COMPETITION" className="form-label">
                     Categories Competition
                   </label>
                   <select
@@ -278,7 +278,7 @@ function IndonesiaOnline() {
                   </p>
                 </div>
                 <div className="input-box">
-                  <label for="LEADER_WHATSAPP" className="form-label">
+                  <label htmlFor="LEADER_WHATSAPP" className="form-label">
                     Leader WhatsApp Number
                     <p>
                       Please write with phone code, example : (phone code) (your
@@ -299,7 +299,7 @@ function IndonesiaOnline() {
                   />
                 </div>
                 <div className="input-box">
-                  <label for="LEADER_EMAIL" className="form-label">
+                  <label htmlFor="LEADER_EMAIL" className="form-label">
                     Leader Email Address
                   </label>
                   <label>
@@ -319,7 +319,7 @@ function IndonesiaOnline() {
                   />
                 </div>
                 <div className="input-box">
-                  <label for="NISN_NIM" className="form-label">
+                  <label htmlFor="NISN_NIM" className="form-label">
                     NISN / NIM Team Leader & Team Members
                   </label>
                   <label>
@@ -381,7 +381,7 @@ function IndonesiaOnline() {
                   </p>
                 </div>
                 <div className="input-box">
-                  <label for="NPSN" className="form-label">
+                  <label htmlFor="NPSN" className="form-label">
                     Nomor Pokok Sekolah Nasional (NPSN)
                   </label>
                   <label>
@@ -403,7 +403,7 @@ function IndonesiaOnline() {
                   ></textarea>
                 </div>
                 <div className="input-box">
-                  <label for="GRADE" className="form-label">
+                  <label htmlFor="GRADE" className="form-label">
                     Grade
                   </label>
                   <select
@@ -424,7 +424,7 @@ function IndonesiaOnline() {
                   </select>
                 </div>
                 <div className="input-box">
-                  <label for="PROVINCE" className="form-label">
+                  <label htmlFor="PROVINCE" className="form-label">
                     Province
                   </label>
                   <input
@@ -448,7 +448,7 @@ function IndonesiaOnline() {
               <h1 className="garis-bawah"></h1>
               <div className="user-details">
                 <div className="input-box">
-                  <label for="NAME_SUPERVISOR" className="form-label">
+                  <label htmlFor="NAME_SUPERVISOR" className="form-label">
                     Name of Teacher/Supervisor
                   </label>
                   <textarea
@@ -462,7 +462,7 @@ function IndonesiaOnline() {
                 </div>
                 <div className="input-box">
                   <label
-                    for="WHATSAPP_NUMBER_SUPERVISOR"
+                    htmlFor="WHATSAPP_NUMBER_SUPERVISOR"
                     className="form-label"
                   >
                     Teacher/Supervisor WhatsApp Number
@@ -482,7 +482,7 @@ function IndonesiaOnline() {
                 </div>
 
                 <div className="input-box">
-                  <label for="EMAIL_TEACHER_SUPERVISOR" className="form-label">
+                  <label htmlFor="EMAIL_TEACHER_SUPERVISOR" className="form-label">
                     Teacher/Supervisor Email Address
                   </label>
                   <input
@@ -508,7 +508,7 @@ function IndonesiaOnline() {
               </div>
               <div className="user-details">
                 <div className="input-box">
-                  <label for="PROJECT_TITLE" className="form-label">
+                  <label htmlFor="PROJECT_TITLE" className="form-label">
                     Project Title
                     <p>
                       Notes: Please fill in the title data CORRECTLY, the data
@@ -561,7 +561,7 @@ function IndonesiaOnline() {
                 </div>
 
                 <div className="input-box">
-                  <label for="YES_NO" className="form-label">
+                  <label htmlFor="YES_NO" className="form-label">
                     Does the project title have ever participated in an
                     invention and innovation competition before?
                   </label>
@@ -581,7 +581,7 @@ function IndonesiaOnline() {
 
                 <div className="input-box">
                   <label
-                    for="JUDUL_PERNAH_BERPATISIPASI"
+                    htmlFor="JUDUL_PERNAH_BERPATISIPASI"
                     className="form-label"
                   >
                     If the project title have ever participated in other
@@ -626,7 +626,7 @@ function IndonesiaOnline() {
               </div>
               <div className="user-details">
                 <div className="input-box">
-                  <label for="COMPLETE_ADDRESS" className="form-label">
+                  <label htmlFor="COMPLETE_ADDRESS" className="form-label">
                     Full Address
                   </label>
                   <label>
@@ -646,7 +646,7 @@ function IndonesiaOnline() {
                   ></textarea>
                 </div>
                 <div className="input-box">
-                  <label for="INFORMATION_RESOURCES" className="form-label">
+                  <label htmlFor="INFORMATION_RESOURCES" className="form-label">
                     ISPC 2026 Competition Information Resources
                   </label>
                   <select
@@ -676,7 +676,7 @@ function IndonesiaOnline() {
                   </select>
                 </div>
                 <div className="input-box">
-                  <label for="FILE" className="form-label">
+                  <label htmlFor="FILE" className="form-label">
                     If you received free registration from a previous event or
                     school visit activity, please attach documentary evidence.{" "}
                   </label>
