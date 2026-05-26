@@ -24,6 +24,7 @@ import Thankyouinter from "./pages/registration/thankyouinter";
 // import Faq from "./pages/faq";
 // import PosterPage from "./pages/posterlayoutpages";
 import ListNews from "./pages/news/listnews";
+import Cert2026 from "./pages/certificate/cert2026";
 
 const router = createBrowserRouter([
   {
@@ -105,6 +106,10 @@ const router = createBrowserRouter([
   {
     path: "/thankyouinter",
     element: <Thankyouinter />
+  },
+  {
+    path: "/cert2026",
+    element: <Cert2026 />
   },
 ]);
 
