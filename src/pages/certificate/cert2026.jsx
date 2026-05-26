@@ -20,10 +20,10 @@ function Cert2026() {
           </div>
           <div className="content-button mt-4">
             <a href="https://drive.google.com/drive/folders/1sXpxFNbxyLJn6rMhMGl3ZSAHOUew15tR?usp=sharing" target="_blank" className="btn btn-action btn-lg">
-              ONLINE CERTIFICATE
+              Online Certificate
             </a>
             <a href="https://drive.google.com/drive/folders/19xWrXektgkLE2-tpqd2d2obm2br4uQ0C?usp=sharing" target="_blank" className="btn btn-action btn-lg">
-              OFFLINE CERTIFICATE
+              Offline Certificate
             </a>
           </div>
         </div>
