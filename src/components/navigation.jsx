@@ -93,6 +93,13 @@ const navigation = () => {
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   eventKey="4.1"
+                  href="https://drive.google.com/file/d/1bsNac2XmMuUgIoC79u0N8cBlOUuz-2r5/view?usp=sharing"
+                  target="_blank"
+                >
+                  Press Release 2026
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  eventKey="4.1"
                   href="https://drive.google.com/file/d/115ioYB9Yi-oLTRBO2GysgJIoxS_mgI5u/view?usp=sharing"
                   target="_blank"
                 >
