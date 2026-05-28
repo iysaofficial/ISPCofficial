@@ -19,18 +19,18 @@ function Jenjangoff26() {
             </h1>
           </div>
           <div className="content-button mt-4">
-            <a href="#" className="btn btn-action btn-lg">
+            {/* <a href="#" className="btn btn-action btn-lg">
               University
-            </a>
-            <a href="#" className="btn btn-action btn-lg">
+            </a> */}
+            <a href="https://drive.google.com/file/d/1azwpOUzbZ_lvxUchORv9ITatAveq00va/view?usp=sharing" className="btn btn-action btn-lg">
               Secondary
             </a>
-            <a href="#" className="btn btn-action btn-lg">
+            <a href="https://drive.google.com/file/d/1Y-QTejkqMb2Cgj_TQZ4ZUz9ExfYIwtYI/view?usp=sharing" className="btn btn-action btn-lg">
               Elementary
             </a>
-            <a href="#" className="btn btn-action btn-lg">
+            {/* <a href="#" className="btn btn-action btn-lg">
               Public
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
