@@ -14,6 +14,80 @@ function ListNews() {
       <section className="news-section">
         <div className="text-center">
           <br />
+          <h1 className="fw-bold">News 2026</h1>
+          <div className="wrapper row">
+            {/* NEWS 1 START */}
+            <div className="col-lg-3 card">
+              <img
+                className="img-fluid mb-2"
+                src="./assets/news/ugm.png"
+                alt=""
+              />
+              <h5>
+                From Walls to Air Purifiers: Tim UGM Sabet Gold Medal dan The ICGI Special Award di ISPC 2026 lewat Inovasi Cat Hidup ENVIORA
+              </h5>
+              <p>
+                {" "}
+                Tim UGM berhasil menyabet Gold Medal dan The ICGI Special Award di ajang International Science Project Competition (ISPC) 2026 melalui inovasi cat hidup ENVIORA.
+              </p>
+              <a
+                href="https://biologi.ugm.ac.id/2026/05/18/from-walls-to-air-purifiers-tim-ugm-sabet-gold-medal-dan-the-icgi-special-award-di-ispc-2026-lewat-inovasi-cat-hidup-enviora/"
+                target="_blank"
+                className="btn btn-action"
+              >
+                See More
+              </a>
+            </div>
+            {/* NEWS 1 END */}
+            {/* NEWS 2 START */}
+            <div className="col-lg-3 card">
+              <img
+                className="img-fluid mb-2"
+                src="./assets/news/ukrida.png"
+                alt=""
+              />
+              <h5>
+                Gold Medal pada International Science Project Competition (ISPC) 2026
+              </h5>
+              <p>
+                {" "}
+                Prestasi membanggakan diraih oleh mahasiswa UKRIDA dengan mendapatkan Gold Medal pada ajang International Science Project Competition (ISPC) 2026.
+              </p>
+              <a
+                href="https://ukrida.ac.id/news/3642/gold-medal-pada-international-science-project-competition-ispc-2026"
+                target="_blank"
+                className="btn btn-action"
+              >
+                See More
+              </a>
+            </div>
+            {/* NEWS 2 END */}
+            {/* NEWS 3 START */}
+            <div className="col-lg-3 card">
+              <img
+                className="img-fluid mb-2"
+                src="./assets/news/20263.jpg"
+                alt=""
+              />
+              <h5>
+                Prestasi Membanggakan di International Science Project Competition 2026
+              </h5>
+              <p>
+                {" "}
+                Sekolah Sabilillah kembali menorehkan prestasi gemilang di tingkat internasional melalui partisipasinya dalam International Science Project Competition (ISPC) 2026.
+              </p>
+              <a
+                href="https://sekolahsabilillah.sch.id/Berita/show/792"
+                target="_blank"
+                className="btn btn-action"
+              >
+                See More
+              </a>
+            </div>
+            {/* NEWS 3 END */}
+            
+          </div>
+          <br />
           <h1 className="fw-bold">News 2025</h1>
           <div className="wrapper row">
             {/* NEWS 1 START */}
