@@ -112,6 +112,13 @@ const navigation = () => {
                 >
                   Press Release 2025
                 </NavDropdown.Item>
+                <NavDropdown.Item
+                  eventKey="4.1"
+                  href="https://drive.google.com/file/d/1SXsbmmALUxxsOeSF_dyqSBxIxivy2Th8/view?usp=sharing"
+                  target="_blank"
+                >
+                  Press Release 2024
+                </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Curation" id="nav-dropdown">
                 <NavDropdown.Item
