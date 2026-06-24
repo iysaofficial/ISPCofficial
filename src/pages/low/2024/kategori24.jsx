@@ -24,7 +24,7 @@ function Kategori24() {
               target="_blank"
               className="btn btn-action btn-lg"
             >
-              ISPC SPECIAL AWARD
+              All List of Winner
             </a>
             {/* <a href="/jenjangofl24" className="btn btn-action btn-lg">
               ISPC OFFLINE

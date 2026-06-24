@@ -19,13 +19,13 @@ function Kategori25() {
             </h1>
           </div>
           <div className="content-button mt-4">
-            <a
+            {/* <a
               href=""
               target="_blank"
               className="btn btn-action btn-lg"
             >
               ISPC SPECIAL AWARD
-            </a>
+            </a> */}
             <a href="/jenjangonl25" className="btn btn-action btn-lg">
               ISPC ONLINE
             </a>
