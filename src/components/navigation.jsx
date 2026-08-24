@@ -43,6 +43,26 @@ const navigation = () => {
               <a className="nav-item nav-link" href="/">
                 Home
               </a>
+              <NavDropdown title="Guide Book" id="nav-dropdown">
+                <NavDropdown.Item
+                  eventKey="5.1"
+                  href="https://drive.google.com/file/d/1Hfm8rpV7fx4ZGi_O0ByZ2H1M52vAxasx/view?usp=sharing"
+                >
+                  2026
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  eventKey="5.2"
+                  href="https://drive.google.com/file/d/1wpmmubMDQP_wQ9XJuxe0ppAvHY3ESObY/view?usp=sharing"
+                >
+                  2025
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  eventKey="5.3"
+                  href="https://drive.google.com/file/d/1STnLOXA-9nVlKTTcp9WZ-mY3bjoWDbVA/view?usp=sharing"
+                >
+                  2024
+                </NavDropdown.Item>
+              </NavDropdown>
               <a className="nav-item nav-link" href="/lowtahun">
                 List of Winners
               </a>
@@ -150,15 +170,6 @@ const navigation = () => {
                 FAQ{" "}
               </a>
             </div>
-            {/* <div className="ms-lg-3">
-              <a
-                href=""
-                target="_blank"
-                className="btn btn-primary btn-action"
-              >
-                Guide Book
-              </a>
-            </div> */}
           </div>
         </div>
       </nav>
